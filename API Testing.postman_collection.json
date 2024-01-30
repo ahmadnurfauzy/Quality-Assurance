@@ -1,0 +1,1165 @@
+{
+	"info": {
+		"_postman_id": "d9ed1b29-49ef-499c-b654-8580fff4ead9",
+		"name": "API Testing",
+		"description": "API Testing from dummy.restapiexample.com to complete Rakamin Academy Challange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31931504",
+		"_collection_link": "https://www.postman.com/ahmadnurfauzy/workspace/testing-api-rakamin/collection/31931504-d9ed1b29-49ef-499c-b654-8580fff4ead9?action=share&source=collection_link&creator=31931504"
+	},
+	"item": [
+		{
+			"name": "All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{dummyEmployee}}/employees",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{dummyEmployee}}/employees",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=2592000"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:34:02 UTC"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.21.6"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,User-Agent,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;e523e017-db8d-4c59-5899-2df42e4609c1"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Server-Cache",
+							"value": "false"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "581"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"employee_name\": \"Tiger Nixon\",\n            \"employee_salary\": 320800,\n            \"employee_age\": 61,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 2,\n            \"employee_name\": \"Garrett Winters\",\n            \"employee_salary\": 170750,\n            \"employee_age\": 63,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 3,\n            \"employee_name\": \"Ashton Cox\",\n            \"employee_salary\": 86000,\n            \"employee_age\": 66,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 4,\n            \"employee_name\": \"Cedric Kelly\",\n            \"employee_salary\": 433060,\n            \"employee_age\": 22,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 5,\n            \"employee_name\": \"Airi Satou\",\n            \"employee_salary\": 162700,\n            \"employee_age\": 33,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 6,\n            \"employee_name\": \"Brielle Williamson\",\n            \"employee_salary\": 372000,\n            \"employee_age\": 61,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 7,\n            \"employee_name\": \"Herrod Chandler\",\n            \"employee_salary\": 137500,\n            \"employee_age\": 59,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 8,\n            \"employee_name\": \"Rhona Davidson\",\n            \"employee_salary\": 327900,\n            \"employee_age\": 55,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 9,\n            \"employee_name\": \"Colleen Hurst\",\n            \"employee_salary\": 205500,\n            \"employee_age\": 39,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 10,\n            \"employee_name\": \"Sonya Frost\",\n            \"employee_salary\": 103600,\n            \"employee_age\": 23,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 11,\n            \"employee_name\": \"Jena Gaines\",\n            \"employee_salary\": 90560,\n            \"employee_age\": 30,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 12,\n            \"employee_name\": \"Quinn Flynn\",\n            \"employee_salary\": 342000,\n            \"employee_age\": 22,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 13,\n            \"employee_name\": \"Charde Marshall\",\n            \"employee_salary\": 470600,\n            \"employee_age\": 36,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 14,\n            \"employee_name\": \"Haley Kennedy\",\n            \"employee_salary\": 313500,\n            \"employee_age\": 43,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 15,\n            \"employee_name\": \"Tatyana Fitzpatrick\",\n            \"employee_salary\": 385750,\n            \"employee_age\": 19,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 16,\n            \"employee_name\": \"Michael Silva\",\n            \"employee_salary\": 198500,\n            \"employee_age\": 66,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 17,\n            \"employee_name\": \"Paul Byrd\",\n            \"employee_salary\": 725000,\n            \"employee_age\": 64,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 18,\n            \"employee_name\": \"Gloria Little\",\n            \"employee_salary\": 237500,\n            \"employee_age\": 59,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 19,\n            \"employee_name\": \"Bradley Greer\",\n            \"employee_salary\": 132000,\n            \"employee_age\": 41,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 20,\n            \"employee_name\": \"Dai Rios\",\n            \"employee_salary\": 217500,\n            \"employee_age\": 35,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 21,\n            \"employee_name\": \"Jenette Caldwell\",\n            \"employee_salary\": 345000,\n            \"employee_age\": 30,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 22,\n            \"employee_name\": \"Yuri Berry\",\n            \"employee_salary\": 675000,\n            \"employee_age\": 40,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 23,\n            \"employee_name\": \"Caesar Vance\",\n            \"employee_salary\": 106450,\n            \"employee_age\": 21,\n            \"profile_image\": \"\"\n        },\n        {\n            \"id\": 24,\n            \"employee_name\": \"Doris Wilder\",\n            \"employee_salary\": 85600,\n            \"employee_age\": 23,\n            \"profile_image\": \"\"\n        }\n    ],\n    \"message\": \"Successfully! All records has been fetched.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Employee by ID (positive case)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{dummyEmployee}}/employee/3",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"employee",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{dummyEmployee}}/employee/3",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"employee",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=2592000"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:34:37 UTC"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.21.6"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,User-Agent,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Hit ds;mm;6523f89d5f7c57e3f87245b11f2bbd36;2-133674-15;4b3762f4-69e4-40ef-6249-ee7853aa7f8c"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Server-Cache",
+							"value": "false"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "129"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"id\": 3,\n        \"employee_name\": \"Ashton Cox\",\n        \"employee_salary\": 86000,\n        \"employee_age\": 66,\n        \"profile_image\": \"\"\n    },\n    \"message\": \"Successfully! Record has been fetched.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Employee by ID (negative case)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{dummyEmployee}}/employee/1000",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"employee",
+						"1000"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{dummyEmployee}}/employee/1000",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"employee",
+								"1000"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=2592000"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:34:53 UTC"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.21.6"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,User-Agent,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Hit ds;mm;a4c6374252cc4d0c4767e00d55bb5b19;2-133674-15;8c4d4a09-a299-4a5d-6aff-f0d0ba067f4a"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Server-Cache",
+							"value": "false"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "74"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": null,\n    \"message\": \"Successfully! Record has been fetched.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Budi Surjana\",\r\n    \"salary\":\"250000\",\r\n    \"age\":\"43\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dummyEmployee}}/create",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Budi Surjana\",\r\n    \"salary\":\"250000\",\r\n    \"age\":\"43\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{dummyEmployee}}/create",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:46:11 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:46:11 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "114"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"name\": \"Budi Surjana\",\n        \"salary\": \"250000\",\n        \"age\": \"43\",\n        \"id\": 8287\n    },\n    \"message\": \"Successfully! Record has been added.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Add 2 Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    \t{\r\n            \"name\":\"Bambang\",\r\n            \"salary\":\"123220\",\r\n            \"age\":\"33\"\r\n            },\r\n        {\r\n            \"name\":\"Sutoyo\",\r\n            \"salary\":\"123000\",\r\n            \"age\":\"53\"\r\n            }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dummyEmployee}}/create",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \t{\r\n            \"name\":\"Bambang\",\r\n            \"salary\":\"123220\",\r\n            \"age\":\"33\"\r\n            },\r\n        {\r\n            \"name\":\"Sutoyo\",\r\n            \"salary\":\"123000\",\r\n            \"age\":\"53\"\r\n            }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{dummyEmployee}}/create",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:45:24 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:45:24 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"0\": {\n            \"name\": \"Bambang\",\n            \"salary\": \"123220\",\n            \"age\": \"33\"\n        },\n        \"1\": {\n            \"name\": \"Sutoyo\",\n            \"salary\": \"123000\",\n            \"age\": \"53\"\n        },\n        \"id\": 9040\n    },\n    \"message\": \"Successfully! Record has been added.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Employee Null",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"\",\r\n    \"salary\":\"123\",\r\n    \"age\":\"43\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dummyEmployee}}/create",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"\",\r\n    \"salary\":\"123\",\r\n    \"age\":\"43\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{dummyEmployee}}/create",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:55:45 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:55:45 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "101"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"name\": null,\n        \"salary\": \"123\",\n        \"age\": \"43\",\n        \"id\": 2761\n    },\n    \"message\": \"Successfully! Record has been added.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Employee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Bejo Suhandono\",\r\n    \"salary\":\"123000\",\r\n    \"age\":\"45\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dummyEmployee}}/update/1",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Bejo Suhandono\",\r\n    \"salary\":\"123000\",\r\n    \"age\":\"45\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{dummyEmployee}}/update/1",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"update",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:46:37 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:46:37 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "108"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"name\": \"Bejo Suhandono\",\n        \"salary\": \"123000\",\n        \"age\": \"45\"\n    },\n    \"message\": \"Successfully! Record has been updated.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Employee Neg",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Bejo\",\r\n    \"salary\":\"1000\",\r\n    \"age\":\"Tiga Puluh Lima\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dummyEmployee}}/update/1",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Bejo\",\r\n    \"salary\":\"1000\",\r\n    \"age\":\"Tiga Puluh Lima\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{dummyEmployee}}/update/1",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"update",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:53:53 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:53:53 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "109"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"name\": \"Bejo\",\n        \"salary\": \"1000\",\n        \"age\": \"Tiga Puluh Lima\"\n    },\n    \"message\": \"Successfully! Record has been updated.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{dummyEmployee}}/delete/1",
+					"host": [
+						"{{dummyEmployee}}"
+					],
+					"path": [
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{dummyEmployee}}/delete/1",
+							"host": [
+								"{{dummyEmployee}}"
+							],
+							"path": [
+								"delete",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private, max-age=86400"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 19 Jan 2024 13:38:44 GMT"
+						},
+						{
+							"key": "Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 20 Jan 2024 13:38:44 GMT"
+						},
+						{
+							"key": "Response",
+							"value": "200"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,Origin"
+						},
+						{
+							"key": "X-Endurance-Cache-Level",
+							"value": "2"
+						},
+						{
+							"key": "X-Ezoic-Cdn",
+							"value": "Miss"
+						},
+						{
+							"key": "X-Middleton-Display",
+							"value": "staticcontent_sol, orig_site_sol"
+						},
+						{
+							"key": "X-Middleton-Response",
+							"value": "200"
+						},
+						{
+							"key": "X-Nginx-Cache",
+							"value": "WordPress"
+						},
+						{
+							"key": "X-Origin-Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "X-Sol",
+							"value": "orig"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": \"1\",\n    \"message\": \"Successfully! Record has been deleted\"\n}"
+				}
+			]
+		}
+	]
+}
